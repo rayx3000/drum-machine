@@ -1,0 +1,17 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+
+    .drum-machine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background: #ffb303;
+        background: linear-gradient(253deg, rgba(255, 179, 3, 1) 0%, rgba(255, 176, 92, 1) 100%);
+        padding: 25px 45px;
+        border-radius: 20px;
+    }
+}

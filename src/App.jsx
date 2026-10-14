@@ -5,10 +5,12 @@ import Pad from './components/Pad/Pad'
 function App() {
 
   return (
-    <>
-      <Controls />
-      <Pad />
-    </>
+    <div class="app">
+      <div class="drum-machine">
+        <Pad />
+        <Controls />
+      </div>
+    </div>
   )
 }
 
