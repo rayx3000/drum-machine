@@ -31,5 +31,21 @@
             background: #e0e0e0;
             background: linear-gradient(228deg, rgba(224, 128, 38, 1) 0%, rgba(217, 169, 37, 1) 35%, rgba(181, 106, 40, 1) 100%);
         }
+
+        &.active {
+            box-shadow: 0 2px #666;
+            transform: translateY(2px);
+            background: linear-gradient(228deg, rgba(224, 128, 38, 1) 0%, rgba(217, 169, 37, 1) 35%, rgba(181, 106, 40, 1) 100%);
+        }
+
+        &:disabled {
+            cursor: not-allowed;
+            filter: grayscale(0.45);
+            opacity: 0.55;
+        }
+
+        &:disabled:hover {
+            background: linear-gradient(228deg, rgba(181, 106, 40, 1) 0%, rgba(224, 128, 38, 1) 35%, rgba(217, 169, 37, 1) 100%);
+        }
     }
 }
